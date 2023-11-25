@@ -1,0 +1,111 @@
+<Header>
+  <div class="bar-item padding-24 wide">LOGO</div>
+  <a
+    href="javascript:void(0)"
+    class="bar-item button padding-24 right"
+    onclick="w3_open()"
+  ><i class="fa fa-bars"></i></a>
+</Header>
+
+<Page>
+  <!-- Push down content on small screens -->
+  {{! <div class="hide-large" style="margin-top:83px"></div> }}
+
+  <!-- Top header -->
+  <header class="container xlarge">
+    <p class="left">Jeans</p>
+    <p class="right">
+      <i class="fa fa-shopping-cart margin-right"></i>
+      <i class="fa fa-search"></i>
+    </p>
+  </header>
+
+  <!-- Image header -->
+  <div class="display-container container">
+    <img src="../images/jeans.jpg" alt="Jeans" style="width:100%" />
+    <div class="display-topleft text-white" style="padding:24px 48px">
+      <h1 class="jumbo hide-small">New arrivals</h1>
+      <h1 class="hide-large hide-medium">New arrivals</h1>
+      <h1 class="hide-small">COLLECTION 2016</h1>
+      <p><a href="#jeans" class="button black padding-large large">SHOP NOW</a></p>
+    </div>
+  </div>
+
+  <div class="container text-grey" id="jeans">
+    <p>8 items</p>
+  </div>
+
+  <!-- Product grid -->
+  <div class="row grayscale">
+    <div class="col l3 s6">
+      <div class="container">
+        <img src="../images/jeans1.jpg" style="width:100%" />
+        <p>Ripped Skinny Jeans<br /><b>$24.99</b></p>
+      </div>
+      <div class="container">
+        <img src="../images/jeans2.jpg" style="width:100%" />
+        <p>Mega Ripped Jeans<br /><b>$19.99</b></p>
+      </div>
+    </div>
+
+    <div class="col l3 s6">
+      <div class="container">
+        <div class="display-container">
+          <img src="../images/jeans2.jpg" style="width:100%" />
+          <span class="tag tag-display-topleft">New</span>
+          <div class="display-middle display-hover">
+            <button class="button black">Buy now
+              <i class="fa fa-shopping-cart"></i></button>
+          </div>
+        </div>
+        <p>Mega Ripped Jeans<br /><b>$19.99</b></p>
+      </div>
+      <div class="container">
+        <img src="../images/jeans3.jpg" style="width:100%" />
+        <p>Washed Skinny Jeans<br /><b>$20.50</b></p>
+      </div>
+    </div>
+
+    <div class="col l3 s6">
+      <div class="container">
+        <img src="../images/jeans3.jpg" style="width:100%" />
+        <p>Washed Skinny Jeans<br /><b>$20.50</b></p>
+      </div>
+      <div class="container">
+        <div class="display-container">
+          <img src="../images/jeans4.jpg" style="width:100%" />
+          <span class="tag tag-display-topleft">Sale</span>
+          <div class="display-middle display-hover">
+            <button class="button black">Buy now
+              <i class="fa fa-shopping-cart"></i></button>
+          </div>
+        </div>
+        <p>Vintage Skinny Jeans<br /><b class="text-red">$14.99</b></p>
+      </div>
+    </div>
+
+    <div class="col l3 s6">
+      <div class="container">
+        <img src="../images/jeans4.jpg" style="width:100%" />
+        <p>Vintage Skinny Jeans<br /><b>$14.99</b></p>
+      </div>
+      <div class="container">
+        <img src="../images/jeans1.jpg" style="width:100%" />
+        <p>Ripped Skinny Jeans<br /><b>$24.99</b></p>
+      </div>
+    </div>
+  </div>
+  <!-- Subscribe section -->
+  <div class="container black padding-32">
+    <h1>Subscribe</h1>
+    <p>To get special offers and VIP treatment:</p>
+    <p><input
+        class="input border"
+        type="text"
+        placeholder="Enter e-mail"
+        style="width:100%"
+      /></p>
+    <button type="button" class="button red margin-bottom">Subscribe</button>
+  </div>
+  <Footer />
+</Page>

@@ -1,0 +1,350 @@
+html {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+a {
+  color: inherit;
+  background-color: transparent;
+}
+
+/* NavBar */
+
+.sidebar {
+  height: 100%;
+  width: 200px;
+  background-color: #fff;
+  position: fixed !important;
+  z-index: 1;
+  overflow: auto;
+}
+
+.bar-block {
+  width: 100%;
+  text-align: left;
+  padding: 8px 16px;
+}
+
+.white {
+  color: #000 !important;
+  background-color: #fff !important;
+}
+
+.collapse {
+  display: block !important;
+}
+
+.top {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.container {
+  padding: 0.01em 16px;
+}
+
+.display-container {
+  position: relative;
+}
+
+.padding-16 {
+  padding-top: 16px !important;
+  padding-bottom: 16px !important;
+}
+
+.hide-large {
+  display: none !important;
+}
+
+.button {
+  /* width: 100%; */
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.display-topright {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.wide {
+  letter-spacing: 4px;
+}
+
+.padding-64 {
+  padding-top: 64px !important;
+  padding-bottom: 64px !important;
+}
+
+.large {
+  font-size: 18px !important;
+}
+
+.text-grey {
+  color: #757575 !important;
+}
+
+.bar-item {
+  width: 100%;
+  display: block;
+  padding: 8px 16px;
+  text-align: left;
+  border: none;
+  white-space: normal;
+  float: none;
+  outline: 0;
+}
+
+.block {
+  display: block;
+  width: 100%;
+}
+
+.left-align {
+  text-align: left !important;
+}
+
+/* .hide {
+  display: none !important;
+} */
+
+.padding-large {
+  padding: 12px 24px !important;
+}
+
+.medium {
+  font-size: 15px !important;
+}
+
+.light-grey {
+  color: #000 !important;
+  background-color: #f1f1f1 !important;
+}
+
+.margin-right {
+  margin-right: 16px !important;
+}
+
+.padding {
+  padding: 8px 16px !important;
+}
+
+/* Top menu on small screens */
+
+.padding-24 {
+  padding-top: 24px !important;
+  padding-bottom: 24px !important;
+}
+
+.right {
+  float: right !important;
+}
+
+.bar {
+  width: 100%;
+  overflow: hidden;
+}
+
+.black {
+  color: #fff !important;
+  background-color: #000 !important;
+}
+.xlarge {
+  font-size: 24px !important;
+}
+
+/* Page */
+
+.main,
+#main {
+  transition: margin-left 0.4s;
+}
+
+/* Image header */
+
+.left {
+  float: left !important;
+}
+
+.display-topleft {
+  position: absolute;
+  left: 0;
+  top: 80px;
+}
+
+.tag-display-topleft {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+.jumbo {
+  font-size: 64px !important;
+}
+
+/* .hide-small {
+  display: none !important;
+} */
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+/* Product grid */
+
+.row {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.grayscale {
+  filter: grayscale(75%);
+}
+
+.col {
+  float: left;
+  width: 100%;
+  /* padding: 0 8px; */
+}
+
+.l3 {
+  width: 24.99999%;
+}
+
+.s6 {
+  /* width: 49.99999%; */
+}
+
+.tag {
+  background-color: #000;
+  color: #fff;
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+}
+
+.display-middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.display-hover {
+  display: block;
+}
+
+/* Subscribe section */
+
+.padding-32 {
+  padding-top: 32px !important;
+  padding-bottom: 32px !important;
+}
+
+.input {
+  padding: 8px;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+}
+
+.margin-bottom {
+  margin-bottom: 16px !important;
+}
+
+.red {
+  color: #fff !important;
+  background-color: #f44336 !important;
+}
+
+/* Footer */
+
+.padding-64 {
+  padding-top: 64px !important;
+  padding-bottom: 64px !important;
+}
+
+.small {
+  font-size: 12px !important;
+}
+
+.center {
+  text-align: center;
+  /* display: inline-block;
+  width: auto; */
+}
+
+.row-padding {
+  padding: 0 8px;
+  /* content: "";
+  display: table;
+  clear: both; */
+}
+
+.col-footer {
+  float: left;
+  width: 100%;
+  padding: 0 8px;
+}
+
+.s4 {
+  width: 33.33333%;
+}
+
+.justify {
+  text-align: justify !important;
+}
+
+footer {
+  overflow: hidden;
+}
